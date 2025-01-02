@@ -2,8 +2,8 @@ let canvas;
 let ctx;
 canvas = document.createElement("canvas");
 ctx = canvas.getContext("2d");
-canvas.width = 500;
-canvas.height = 600;
+canvas.width = 800;
+canvas.height = 800;
 document.body.appendChild(canvas);
 
 let backgoundImage, spaceshipImage, bulletImage, enemyImage, gameOverImage;
@@ -26,7 +26,7 @@ function Bullet(){
 }
 function loadImage() {
   backgoundImage = new Image();
-  backgoundImage.src = "imgs/spaceback.avif";
+  backgoundImage.src = "imgs/spaceback2.jpg";
 
   spaceshipImage = new Image();
   spaceshipImage.src = "imgs/spaceship.png";
