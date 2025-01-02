@@ -76,6 +76,10 @@ function update() {
   for(let i=0;i<bulletList.length;i++){
     bulletList[i].update()
   }
+  for(let i=0;i<enemyList.length;i++){
+    enemyList[i].update()
+  }
+ 
 }
 
 function render() {
